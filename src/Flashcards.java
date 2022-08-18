@@ -29,7 +29,7 @@ public class Flashcards {
         Scanner input = new Scanner(System.in);
         String report;
         int numberCorrect = 0;
-        Datalist lesson = new OOP();
+        Datalist lesson = new Mechanics();
         while (numberCorrect<1024) {
             for (String notes : lesson.getNotes()) {
                 System.out.println(notes);
